@@ -1,0 +1,34 @@
+.option {
+  background-color: var(--terciary-color);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.4s;
+}
+
+.option:hover {
+  opacity: 1;
+}
+
+.options_container .option p {
+  margin-bottom: 0;
+}
+
+.correct {
+  width: 100%;
+  height: 100%;
+  background-color: var(--correct);
+  font-weight: 800;
+}
+
+.wrong {
+  background-color: var(--wrong);
+  font-weight: 800;
+  opacity: 0.4;
+}
+
+.hide {
+  display: none;
+}
